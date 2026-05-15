@@ -1,47 +1,37 @@
-# AOF — ADonFLOOR Website
+AOF - Website v3.1 (Logo verdoppelt)
+====================================
 
-Die offizielle Marketing-Website von AOF (ADonFLOOR).
+NEUERUNGEN ggue. v3.0:
 
-**Live:** https://aof.com *(sobald deployed)*
+1) LOGO-GROESSE
+   - Nav-Logo: 32px -> 64px (doppelt so gross)
+   - Footer-Logo: 36px -> 72px (doppelt so gross)
+   - Nav-Padding leicht angepasst fuer ausgewogene Hoehe
 
-## Inhalt dieses Repositories
+2) HERO-ANIMATION
+   - Canvas-basierte Lichtpunkte-Animation
+   - Perspektivische Boden-Grid sichtbar im Hintergrund
+   - Punkte bewegen sich in 3 Mustern (hinten->vorne, vorne->hinten, quer)
+   - Hot-Zone-Pulses bei Kreuzungen
+   - Performance-optimiert (IntersectionObserver, reduced-motion)
 
-- `index.html` — die komplette Website (Single-File: Onepager + Detail-Seiten für Anbieter, Werber, Booker, FloorManager-Plattform, Login)
-- `404.html` — Fehlerseite für nicht existierende URLs
-- `vercel.json` — Hosting-Konfiguration für Vercel
-- `robots.txt` — Anweisungen für Suchmaschinen
-- `sitemap.xml` — Sitemap für Google-Indexierung
+3) ZUGANG-ANFORDERN ENTFERNT
+   - Login-Button aus Nav komplett entfernt -> jetzt "Anfragen"
+   - Login-Seite entfernt
+   - Alle CTAs durch Mailto-Links ersetzt
 
-## Technologie
+4) BEIBEHALTEN aus v3.0:
+   - Branchen-Showcase (Handel, Baumarkt, Parkhaus, etc.)
+   - Studien-Evidenz-Sektion
+   - Drei Komponenten (Flaeche / FloorCORE / FloorManager)
+   - Drei Rollen (Flaechenbetreiber / Werber / Booker)
 
-Reine HTML/CSS/JavaScript-Webseite. Kein Build-Prozess, keine Abhängigkeiten.
-Die Datei `index.html` lässt sich auch direkt im Browser öffnen (Doppelklick).
 
-## Deployment
+DEPLOY
+------
+"aof-website-v3.1.html" als "index.html" auf Vercel deployen.
+Alle Assets inline embedded -- self-contained.
 
-Die Seite wird automatisch auf **Vercel** deployed, sobald Änderungen in
-den `main`-Branch gepusht werden. Dauer pro Deployment: ~30 Sekunden.
 
-## Änderungen vornehmen
-
-### Option A — Direkt auf GitHub
-1. Datei (z.B. `index.html`) im Browser auf GitHub öffnen
-2. Auf das Stift-Symbol klicken
-3. Änderungen machen, "Commit" klicken
-4. Vercel deployt automatisch
-
-### Option B — Neue Version komplett ersetzen
-1. Die alte `index.html` löschen oder überschreiben
-2. Neue Datei hochladen (z.B. generiert von Claude)
-3. Commit machen → automatisches Deployment
-
-## Versions-Historie
-
-- **v2.2** — Twilight-Theme, erhöhte Lesbarkeit, weiße Fließtexte
-- **v2.1** — Nav-Gruppierung, Interest-Formulare, Cross-Role-Links
-- **v2.0** — AOF-Branding, Gradient-Akzente, dunkles Theme
-- **v1.0** — Initial (hell, Porsche-Stil)
-
-## Kontakt
-
-kontakt@aof.com
+AOF -- ADonFLOOR -- ein Projekt der Bseventyseven GmbH
+kontakt@b77.de -- +49 271 890 27 837
